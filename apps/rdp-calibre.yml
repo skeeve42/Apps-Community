@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Title:      PGBlitz (rdp-calibre)
-# Author(s):  MrDoob
+# Author(s):  MrDoob, bretc
 # URL:        https://pgblitz.com - http://github.pgblitz.com
 # GNU:        General Public License v3.0
 ################################################################################
@@ -17,7 +17,7 @@
         extport: '8089'
         intport2: '8081'
         extport2: '8090'
-        image: 'aptalca/docker-rdp-calibre:latest'
+        image: 'linuxserver/calibre:latest'
 
     # CORE (MANDATORY) ############################################################
     - name: 'Including cron job'
